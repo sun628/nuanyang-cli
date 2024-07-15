@@ -6,19 +6,19 @@
 With NPM:
 
 ```bash
-$ npm create vite@latest
+$ npm create nya@latest
 ```
 
 With Yarn:
 
 ```bash
-$ yarn create vite
+$ yarn create nya
 ```
 
 With PNPM:
 
 ```bash
-$ pnpm create vite
+$ pnpm create nya
 ```
 
 Then follow the prompts!
@@ -27,13 +27,13 @@ You can also directly specify the project name and the template you want to use 
 
 ````bash
 # npm 7+, extra double-dash is needed:
-npm create vite@latest my-vue-app -- --template vue
+npm create nya@latest my-vue-app -- --template vue
 
 # yarn
-yarn create vite my-vue-app --template vue
+yarn create nya my-vue-app --template vue
 
 # pnpm
-pnpm create vite my-vue-app --template vue
+pnpm create nya my-vue-app --template vue
 
 
 Currently supported template presets include:
