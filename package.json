@@ -1,0 +1,39 @@
+{
+  "name": "create-nya",
+  "version": "1.0.1",
+  "description": "A scaffolding tool for Nuanyang projects",
+  "type": "module",
+  "license": "MIT",
+  "author": "nuanyang",
+  "main": "index.js",
+  "bin": {
+    "create-nya": "index.js"
+  },
+  "scripts": {
+    "dev": "unbuild --stub",
+    "build": "unbuild",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "scaffold",
+    "cli"
+  ],
+  "engines": {
+    "node": "^18.0.0 || >=20.0.0"
+  },
+  "devDependencies": {
+    "@types/cross-spawn": "^6.0.6",
+    "@types/minimist": "^1.2.5",
+    "@types/prompts": "^2.4.9",
+    "cross-spawn": "^7.0.3",
+    "kolorist": "^1.8.0",
+    "minimist": "^1.2.8",
+    "prompts": "^2.4.2",
+    "unbuild": "^2.0.0"
+  },
+  "dependencies": {
+    "download-git-repo": "^3.0.2",
+    "ora": "^8.0.1"
+  }
+}
