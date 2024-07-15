@@ -1,6 +1,6 @@
 {
   "name": "create-nya",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A scaffolding tool for Nuanyang projects",
   "type": "module",
   "license": "MIT",
